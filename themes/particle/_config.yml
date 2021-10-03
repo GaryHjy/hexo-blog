@@ -21,41 +21,31 @@ home_background: "background-image:url('home.jpg')"
 
 # main menu navigation
 menu:
-  home:
+  首页:
     icon:
       name: home
       theme: filled
     src: /
-  about:
+  关于:
     icon:
       name: idcard
       theme: filled
     src: /about # 当你的博客root为 '/' 时
-  archives:
-    icon:
-      name: folder
-      theme: filled
-    src: /archives
-  categories:
+  分类:
     icon:
       name: book
       theme: filled
-    src: /like/categories # 当你的博客root不为 '/'，而是其它时，例如 '/like/'
-  tags:
+    src: /categories # 当你的博客root不为 '/'，而是其它时，例如 '/like/'
+  标签:
     icon:
       name: tags
       theme: filled
-    src: /like/tags
-  英文博客:
-    icon:
-      name: compass
-      theme: filled
-    src: https://en.korilin.com
+    src: /tags
 
 # side info card
 card:
   enable: true
-  description: ["正しさなんてもの", "人のモノサシによって変わる"]
+  description: []
   icon_links:
     github:
       icon:
@@ -63,7 +53,7 @@ card:
         name: github
         theme: filled
         src:
-      link: https://github.com/korilin
+      link: https://github.com/GaryHjy
     twitter:
       icon:
         type: antd-icon

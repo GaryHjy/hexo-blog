@@ -5,7 +5,7 @@
 language: zh
 
 # avatar image url
-head_img: images/avatar.png
+head_img: https://avatars.githubusercontent.com/u/32995274?v=4
 
 # home page head info block
 head_block_enable: true
@@ -26,26 +26,26 @@ menu:
       name: home
       theme: filled
     src: /
-  关于:
-    icon:
-      name: idcard
-      theme: filled
-    src: /about # 当你的博客root为 '/' 时
   分类:
     icon:
       name: book
       theme: filled
-    src: /categories # 当你的博客root不为 '/'，而是其它时，例如 '/like/'
+    src: /categories
   标签:
     icon:
       name: tags
       theme: filled
     src: /tags
+  关于:
+    icon:
+      name: idcard
+      theme: filled
+    src: /about
 
 # side info card
 card:
   enable: true
-  description: []
+  description: ['Web前端开发者', '广东广州']
   icon_links:
     github:
       icon:
@@ -54,24 +54,18 @@ card:
         theme: filled
         src:
       link: https://github.com/GaryHjy
-    twitter:
-      icon:
-        type: antd-icon
-        name: twitter
-        theme:
-        src:
-      link: https://twitter.com/korilin_dev
   friend_links:
     英文技术博客: https://en.korilin.com
     日语记录博客: https://jp.korilin.com
 
 # footer info
 footer:
-  since: 2018
+  since: 2021
   # Customize the server domain name ICP
   ICP:
-    enable: false
-    code: 
+    enable: true
+    url: https://beian.miit.gov.cn/
+    code: 粤ICP备19097478号
 
 # Gitalk
 # https://github.com/gitalk/gitalk

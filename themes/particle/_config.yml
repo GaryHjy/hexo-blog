@@ -26,16 +26,16 @@ menu:
       name: home
       theme: filled
     src: /
-  分类:
-    icon:
-      name: book
-      theme: filled
-    src: /categories
-  标签:
-    icon:
-      name: tags
-      theme: filled
-    src: /tags
+  # 分类:
+  #   icon:
+  #     name: book
+  #     theme: filled
+  #   src: /categories
+  # 标签:
+  #   icon:
+  #     name: tags
+  #     theme: filled
+  #   src: /tags
   关于:
     icon:
       name: idcard
@@ -70,7 +70,7 @@ footer:
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   clientID: # GitHub Application Client ID
   clientSecret: # GitHub Application Client Secret
   repo: hexo-theme-particle # The name of repository of store comments

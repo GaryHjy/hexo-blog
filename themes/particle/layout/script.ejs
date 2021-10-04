@@ -29,8 +29,9 @@
         },
         methods: {
             home_click: function () {
+                var bannerHeight = document.getElementById('home-head')
                 window.scrollTo({
-                    top: window.innerHeight - 80,
+                    top: bannerHeight.clientHeight - 80,
                     behavior: "smooth",
                 });
             }

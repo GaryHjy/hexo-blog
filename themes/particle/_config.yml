@@ -5,7 +5,7 @@
 language: zh
 
 # avatar image url
-head_img: https://avatars.githubusercontent.com/u/32995274?v=4
+head_img: ./images/avatars.jpeg
 
 # home page head info block
 head_block_enable: true
